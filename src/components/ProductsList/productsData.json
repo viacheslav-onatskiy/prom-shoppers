@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "Бытовой Бытовой Бытовой Бытовой Бытовой Тостер 263",
+    "category": "toasters",
+    "url": "/compressors",
+    "imageUrl": "https://images.prom.ua/5490883673_w200_h200_bytovoj-toster-raf.jpg",
+    "price": 680,
+    "description": "description toaster"
+  },
+  {
+    "id": "2",
+    "name": "Кофемолка 1500W Кофемолка",
+    "category": "coffee",
+    "url": "/compressors",
+    "imageUrl": "https://images.prom.ua/3820196436_w400_h400_antikvarni-kavomolki.jpg",
+    "price": 1686,
+    "description": "description coffee coffee coffee coffee"
+  },
+  {
+    "id": "3",
+    "name": "Весы кухонные ACS KE-A до 5kg, весы настольные электронные",
+    "category": "Kitchen",
+    "url": "/kinchen",
+    "imageUrl": "https://images.prom.ua/2880859418_w400_h400_vesy-kuhonnye-acs.jpg",
+    "price": 340,
+    "description": "description Весы кухонные ACS KE-A до 5kg, весы настольные электронные"
+  },
+  {
+    "id": "4",
+    "name": "Тепловентилятор Saturn ST - HT 7645K",
+    "category": "ventilators",
+    "url": "/compressors",
+    "imageUrl": "https://images.prom.ua/901033003_w400_h400_teploventilyator-saturn-st.jpg",
+    "price": 920,
+    "description": "Descr  Тепловентилятор Saturn ST - HT 7645K --- Тепловентилятор Saturn ST - HT 7645K"
+  },
+  {
+    "id": "5",
+    "name": "Электрическая мясорубка Domotec MS-2021 3000W, электромясорубка, измельчитель",
+    "category": "toasters",
+    "url": "/mixer",
+    "imageUrl": "https://images.prom.ua/1679096494_w400_h400_elektricheskaya-myasorubka-domotec.jpg",
+    "price": 2716,
+    "description": "123 description Электрическая мясорубка Domotec MS-2021 3000W, электромясорубка, измельчитель"
+  },
+  {
+    "id": "6",
+    "name": "Тепловентилятор Grunhelm FH - 06 (2000 Вт)",
+    "category": "ventilators",
+    "url": "/compressors",
+    "imageUrl": "https://images.prom.ua/1968049056_w400_h400_teploventilyator-grunhelm-fh.jpg",
+    "price": 1085,
+    "description": "description Тепловентилятор Grunhelm FH - 06 (2000 Вт)"
+  }
+]

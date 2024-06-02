@@ -1,11 +1,5 @@
 import styled from 'styled-components';
 
-const HomeContainer = styled.div`
-  color: #20b2aa;
-
-  :hover {
-    color: #2e8b57;
-  }
-`;
+const HomeContainer = styled.div``;
 
 export { HomeContainer };

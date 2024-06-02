@@ -1,0 +1,32 @@
+[
+  {
+    "id": "compressors",
+    "categoryName": "Компрессоры кондиционера",
+    "url": "/compressors",
+    "image": "https://images.prom.ua/3525237933_w240_h240_kompressory-konditsionera.jpg"
+  },
+  {
+    "id": "women-ethnic",
+    "categoryName": "Женская этническая",
+    "url": "/women-ethnic",
+    "image": "https://images.prom.ua/3447156463_w240_h240_zhenskaya-etnicheskaya-odezhda.jpg"
+  },
+  {
+    "id": "sandali",
+    "categoryName": "Сандали",
+    "url": "/sandali",
+    "image": "https://images.prom.ua/3502764034_w240_h240_muzhskie-sandalii-i.jpg"
+  },
+  {
+    "id": "sadovye-kacheli",
+    "categoryName": "Садовые качели",
+    "url": "/sadovye-kacheli",
+    "image": "https://images.prom.ua/3647498007_w240_h240_sadovye-kacheli.jpg"
+  },
+  {
+    "id": "glasses",
+    "categoryName": "Очки",
+    "url": "/glasses",
+    "image": "https://images.prom.ua/3593587791_w240_h240_takticheskie-ochki.jpg"
+  }
+]

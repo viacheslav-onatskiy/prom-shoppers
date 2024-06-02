@@ -1,9 +1,9 @@
 import MenuIcon from '@mui/icons-material/Menu';
-import { AppBar, Box, IconButton, Toolbar } from '@mui/material';
+import { AppBar, Box, IconButton } from '@mui/material';
 import { MouseEvent, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { PAGES } from '../../constants';
-import { HeaderContainer } from './Header.styles';
+import { HeaderContainer, HeaderToolbar } from './Header.styles';
 import HeaderButtons from './HeaderButtons';
 import HeaderMenu from './HeaderMenu';
 import HeaderMobileMenu from './HeaderMobileMenu';
@@ -40,7 +40,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <AppBar position="static">
-        <Toolbar>
+        <HeaderToolbar className="container">
           <IconButton
             size="large"
             edge="start"
@@ -65,7 +65,7 @@ const Header = () => {
             handleProfileMenuOpen={handleProfileMenuOpen}
             handleMobileMenuOpen={handleMobileMenuOpen}
           />
-        </Toolbar>
+        </HeaderToolbar>
       </AppBar>
 
       <HeaderMobileMenu
