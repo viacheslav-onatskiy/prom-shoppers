@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { IProduct } from '../../types';
-import Product from './Product/Product';
+import ProductItem from './ProductItem';
 import styles from './ProductsList.styles';
 import productsData from './productsData.json';
 
@@ -21,7 +21,7 @@ const ProductsList = () => {
 
         <ProductsListItems>
           {products.map((product) => (
-            <Product product={product} key={product.id} />
+            <ProductItem product={product} key={product.id} />
           ))}
         </ProductsListItems>
       </Container>

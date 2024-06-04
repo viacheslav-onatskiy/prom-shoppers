@@ -1,7 +1,7 @@
 import { Button } from '@mui/material';
 import styled from 'styled-components';
 
-const ProductWrapper = styled.li`
+const ProductItemWrapper = styled.li`
   flex: none;
   width: calc(100% / 5);
   padding: 3px;
@@ -9,7 +9,7 @@ const ProductWrapper = styled.li`
   list-style: none;
 `;
 
-const ProductContainer = styled.div`
+const ProductItemContainer = styled.div`
   display: flex;
   height: 100%;
   overflow: hidden;
@@ -25,23 +25,23 @@ const ProductContainer = styled.div`
   }
 `;
 
-const ProductFavoriteButton = styled.div`
+const ProductItemFavoriteButton = styled.div`
   position: absolute;
   top: 5px;
   right: 5px;
   z-index: 1;
 `;
 
-const ProductImageContainer = styled.div``;
+const ProductItemImageContainer = styled.div``;
 
-const ProductDetailsContainer = styled.div`
+const ProductItemDetailsContainer = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
   padding: 8px;
 `;
 
-const ProductImage = styled.img`
+const ProductItemImage = styled.img`
   object-fit: cover;
   width: 100%;
   height: 200px;
@@ -52,7 +52,7 @@ const ProductImage = styled.img`
   box-sizing: border-box;
 `;
 
-const ProductDescription = styled.p`
+const ProductItemDescription = styled.p`
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -65,13 +65,13 @@ const ProductDescription = styled.p`
   flex-grow: 1;
 `;
 
-const ProductPrice = styled.p`
+const ProductItemPrice = styled.p`
   font-weight: 600;
   margin: 0;
   margin-top: 10px;
 `;
 
-const ProductButton = styled(Button)`
+const ProductItemButton = styled(Button)`
   &.product-button {
     font-weight: 700;
     border-radius: 18px;
@@ -83,13 +83,13 @@ const ProductButton = styled(Button)`
 `;
 
 export default {
-  ProductWrapper,
-  ProductContainer,
-  ProductImageContainer,
-  ProductImage,
-  ProductDescription,
-  ProductPrice,
-  ProductButton,
-  ProductDetailsContainer,
-  ProductFavoriteButton,
+  ProductItemWrapper,
+  ProductItemContainer,
+  ProductItemImageContainer,
+  ProductItemImage,
+  ProductItemDescription,
+  ProductItemPrice,
+  ProductItemButton,
+  ProductItemDetailsContainer,
+  ProductItemFavoriteButton,
 };
